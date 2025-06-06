@@ -1792,7 +1792,7 @@
 		)
 		(uuid "399d9ccd-484e-4589-93f6-9685063eb43d")
 	)
-	(text "L_FlyWheel"
+	(text "T_FlyWheel"
 		(exclude_from_sim no)
 		(at 19.558 66.802 0)
 		(effects
@@ -1803,7 +1803,7 @@
 		)
 		(uuid "4dc41060-2f52-4865-8a17-4005047a07bc")
 	)
-	(text "R_FlyWheel"
+	(text "B_FlyWheel"
 		(exclude_from_sim no)
 		(at 19.304 85.09 0)
 		(effects
@@ -1859,7 +1859,7 @@
 		)
 		(uuid "c29c471c-7300-4da6-956b-eee569214e97")
 	)
-	(text "L_FlyWheel"
+	(text "T_FlyWheel"
 		(exclude_from_sim no)
 		(at 72.898 66.802 0)
 		(effects
@@ -1925,7 +1925,7 @@
 		)
 		(uuid "e2e93b8d-66a4-4184-8122-549739a77fe6")
 	)
-	(text "R_FlyWheel"
+	(text "B_FlyWheel"
 		(exclude_from_sim no)
 		(at 72.644 85.09 0)
 		(effects
@@ -2055,7 +2055,7 @@
 		(uuid "31d161be-2df8-4bb9-99b8-992c815fadbe")
 	)
 	(junction
-		(at 142.24 77.47)
+		(at 142.24 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38ea7c94-d8a2-4802-8139-8465189561f8")
@@ -2091,7 +2091,7 @@
 		(uuid "49535119-7d66-4c6c-9a70-1244e6c8bfa9")
 	)
 	(junction
-		(at 142.24 80.01)
+		(at 142.24 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "518eb4f4-5361-4e02-95cd-c1bdf80f6d17")
@@ -3192,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 77.47) (xy 147.32 77.47)
+			(xy 142.24 78.74) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3262,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 77.47) (xy 142.24 77.47)
+			(xy 139.7 78.74) (xy 142.24 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 142.24 80.01)
+			(xy 139.7 81.28) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 80.01) (xy 147.32 80.01)
+			(xy 142.24 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3801,7 +3801,7 @@
 		(uuid "28467671-db63-4547-963c-6e2f6dff5f01")
 	)
 	(label "OrinPWR_{GND}"
-		(at 139.7 80.01 180)
+		(at 139.7 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4361,7 +4361,7 @@
 		(uuid "cfcc8d86-6df3-405d-8156-195b8c234ca5")
 	)
 	(label "OrinPWR_{+19V}"
-		(at 139.7 77.47 180)
+		(at 139.7 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4500,7 +4500,7 @@
 		)
 		(uuid "fd56ec54-2a9e-47c3-be87-048e3b6a1779")
 	)
-	(hierarchical_label "Pitch PWR_{GND}"
+	(hierarchical_label "R Pitch PWR_{GND}"
 		(shape output)
 		(at 99.06 30.48 0)
 		(effects
@@ -4590,7 +4590,7 @@
 	)
 	(hierarchical_label "Orin PWR_{GND}"
 		(shape output)
-		(at 147.32 80.01 0)
+		(at 147.32 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4599,7 +4599,7 @@
 		)
 		(uuid "18058d3a-f4cd-4190-b432-ff9592a43610")
 	)
-	(hierarchical_label "LFlywheel PWR_{GND}"
+	(hierarchical_label "R LFlywheel PWR_{GND}"
 		(shape output)
 		(at 99.06 72.39 0)
 		(effects
@@ -4632,7 +4632,7 @@
 		)
 		(uuid "2833b4b4-fa9b-4446-8538-ea0cc23607c0")
 	)
-	(hierarchical_label "Pitch CAN-"
+	(hierarchical_label "R Yaw CAN-"
 		(shape output)
 		(at 99.06 59.69 0)
 		(effects
@@ -4654,7 +4654,7 @@
 		)
 		(uuid "29bc10d3-5cfb-454e-88da-b5f77980a006")
 	)
-	(hierarchical_label "RFlywheel PWR_{+24V}"
+	(hierarchical_label "R RFlywheel PWR_{+24V}"
 		(shape output)
 		(at 99.06 88.9 0)
 		(effects
@@ -4676,7 +4676,7 @@
 		)
 		(uuid "2df540cf-1c13-47a3-b948-11e6a853fabe")
 	)
-	(hierarchical_label "RFlywheel PWR_{GND}"
+	(hierarchical_label "R RFlywheel PWR_{GND}"
 		(shape output)
 		(at 99.06 91.44 0)
 		(effects
@@ -4687,7 +4687,7 @@
 		)
 		(uuid "3275129e-3629-46ee-9964-d450c3f530f6")
 	)
-	(hierarchical_label "Pitch PWR_{+24V}"
+	(hierarchical_label "R Pitch PWR_{+24V}"
 		(shape output)
 		(at 99.06 48.26 0)
 		(effects
@@ -4720,7 +4720,7 @@
 		)
 		(uuid "345e8f24-21ea-41b4-9056-14b36a332b3d")
 	)
-	(hierarchical_label "Feeder PWR_{+24V}"
+	(hierarchical_label "R Feeder PWR_{+24V}"
 		(shape output)
 		(at 99.06 107.95 0)
 		(effects
@@ -4731,7 +4731,7 @@
 		)
 		(uuid "381a11b8-dff6-4c99-8e8e-03d9a97cbcbe")
 	)
-	(hierarchical_label "LFlywheel CAN+"
+	(hierarchical_label "R LFlywheel CAN+"
 		(shape output)
 		(at 99.06 78.74 0)
 		(effects
@@ -4742,7 +4742,7 @@
 		)
 		(uuid "419aca6d-b763-4465-a9b4-2be6f2f167ed")
 	)
-	(hierarchical_label "L Pitch CAN+"
+	(hierarchical_label "L Yaw CAN+"
 		(shape output)
 		(at 45.72 57.15 0)
 		(effects
@@ -4753,7 +4753,7 @@
 		)
 		(uuid "42f0211c-4ead-44c2-aed3-ccae51d36d41")
 	)
-	(hierarchical_label "Feeder CAN-"
+	(hierarchical_label "R Feeder CAN-"
 		(shape output)
 		(at 99.06 119.38 0)
 		(effects
@@ -4808,7 +4808,7 @@
 		)
 		(uuid "5221bf71-422d-46b2-a40f-9d600e11afdf")
 	)
-	(hierarchical_label "Pitch CAN+"
+	(hierarchical_label "R Pitch CAN+"
 		(shape output)
 		(at 99.06 36.83 0)
 		(effects
@@ -4863,7 +4863,7 @@
 		)
 		(uuid "59c204db-1d6a-4499-a84e-51d2a2396749")
 	)
-	(hierarchical_label "Feeder CAN+"
+	(hierarchical_label "R Feeder CAN+"
 		(shape output)
 		(at 99.06 116.84 0)
 		(effects
@@ -4995,7 +4995,7 @@
 		)
 		(uuid "7f87b7b9-b0dd-4adf-b366-2379c629e0ef")
 	)
-	(hierarchical_label "RFlywheel CAN+"
+	(hierarchical_label "R RFlywheel CAN+"
 		(shape output)
 		(at 99.06 97.79 0)
 		(effects
@@ -5006,7 +5006,7 @@
 		)
 		(uuid "8857f218-cf90-4a6d-9b5d-6672ed96156b")
 	)
-	(hierarchical_label "Pitch CAN+"
+	(hierarchical_label "R Yaw CAN+"
 		(shape output)
 		(at 99.06 57.15 0)
 		(effects
@@ -5061,7 +5061,7 @@
 		)
 		(uuid "8f371487-95d6-48ca-931c-70a8bf669277")
 	)
-	(hierarchical_label "LFlywheel CAN-"
+	(hierarchical_label "R LFlywheel CAN-"
 		(shape output)
 		(at 99.06 81.28 0)
 		(effects
@@ -5096,7 +5096,7 @@
 	)
 	(hierarchical_label "Orin PWR_{OrinPWR_{+19V}}"
 		(shape output)
-		(at 147.32 77.47 0)
+		(at 147.32 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5138,7 +5138,7 @@
 		)
 		(uuid "a3130f61-9714-44ce-a133-3ed0ef7a9e29")
 	)
-	(hierarchical_label "LFlywheel PWR_{+24V}"
+	(hierarchical_label "R LFlywheel PWR_{+24V}"
 		(shape output)
 		(at 99.06 69.85 0)
 		(effects
@@ -5204,7 +5204,7 @@
 		)
 		(uuid "be32b31d-c6bb-4a8b-937b-7f53d4fef6e6")
 	)
-	(hierarchical_label "Pitch CAN-"
+	(hierarchical_label "R Pitch CAN-"
 		(shape output)
 		(at 99.06 39.37 0)
 		(effects
@@ -5215,7 +5215,7 @@
 		)
 		(uuid "c90f4abd-e04d-42f9-a523-cc3c75b751f3")
 	)
-	(hierarchical_label "Pitch PWR_{GND}"
+	(hierarchical_label "R Pitch PWR_{GND}"
 		(shape output)
 		(at 99.06 50.8 0)
 		(effects
@@ -5237,7 +5237,7 @@
 		)
 		(uuid "cccc5c92-d38c-4f35-8c8c-5816fcbc419a")
 	)
-	(hierarchical_label "RFlywheel CAN-"
+	(hierarchical_label "R RFlywheel CAN-"
 		(shape output)
 		(at 99.06 100.33 0)
 		(effects
@@ -5259,7 +5259,7 @@
 		)
 		(uuid "d3d9f317-dba2-47f5-8c9a-f6c87d52eaa7")
 	)
-	(hierarchical_label "Feeder PWR_{GND}"
+	(hierarchical_label "R Feeder PWR_{GND}"
 		(shape output)
 		(at 99.06 110.49 0)
 		(effects
@@ -5325,7 +5325,7 @@
 		)
 		(uuid "f8597b9f-d8bb-46a1-84d5-2a66e26ea522")
 	)
-	(hierarchical_label "L Pitch CAN-"
+	(hierarchical_label "L Yaw CAN-"
 		(shape output)
 		(at 45.72 59.69 0)
 		(effects
@@ -5353,7 +5353,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "1k"
@@ -5417,13 +5416,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "155e2c15-da27-4a02-a56a-3990384cdb40")
-		(property "Reference" "R_CAN_RFly"
+		(property "Reference" "R_CAN_BFly1"
 			(at 90.17 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -5480,7 +5478,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_CAN_RFly")
+					(reference "R_CAN_BFly1")
 					(unit 1)
 				)
 			)
@@ -5496,13 +5494,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17e81ce7-1ede-41ec-b92c-7c103b21e586")
-		(property "Reference" "R_CAN_LFly"
+		(property "Reference" "R_CAN_TFly1"
 			(at 90.17 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -5559,7 +5556,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_CAN_LFly")
+					(reference "R_CAN_TFly1")
 					(unit 1)
 				)
 			)
@@ -5582,7 +5579,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -5594,7 +5590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 125.73 129.54 0)
 			(effects
 				(font
@@ -5655,7 +5651,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "150060YS75000"
@@ -5743,7 +5738,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "1k"
@@ -5813,7 +5807,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "172298-1108"
@@ -5946,14 +5939,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40e5598a-2c7c-4925-9c9e-abd4a4633349")
-		(property "Reference" "L_CAN_Pitch"
+		(property "Reference" "L_CAN_Pitch1"
 			(at 44.45 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6011,7 +6003,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_CAN_Pitch")
+					(reference "L_CAN_Pitch1")
 					(unit 1)
 				)
 			)
@@ -6027,14 +6019,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46c1b06d-42d5-4895-a374-e5c8f2a8b639")
-		(property "Reference" "L_CAN_Yaw"
+		(property "Reference" "L_CAN_Yaw1"
 			(at 44.45 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6092,7 +6083,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_CAN_Yaw")
+					(reference "L_CAN_Yaw1")
 					(unit 1)
 				)
 			)
@@ -6108,14 +6099,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49c53397-c5b6-41bd-b823-c187d8879227")
-		(property "Reference" "L_PWR_LFly"
+		(property "Reference" "L_PWR_TFly1"
 			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6173,7 +6163,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_PWR_LFly")
+					(reference "L_PWR_TFly1")
 					(unit 1)
 				)
 			)
@@ -6189,14 +6179,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56d30a65-384e-46b9-972d-193a6d64100b")
-		(property "Reference" "L_PWR_Yaw"
+		(property "Reference" "L_PWR_Yaw1"
 			(at 44.45 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6254,7 +6243,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_PWR_Yaw")
+					(reference "L_PWR_Yaw1")
 					(unit 1)
 				)
 			)
@@ -6270,14 +6259,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c02e58f-625d-4db9-aabe-ecf28fdc55d8")
-		(property "Reference" "UART_Orin"
+		(property "Reference" "UART_Orin1"
 			(at 141.478 105.537 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
@@ -6341,7 +6329,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "UART_Orin")
+					(reference "UART_Orin1")
 					(unit 1)
 				)
 			)
@@ -6357,14 +6345,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5edbc0ae-fff7-49e5-873e-f41dbec8c00c")
-		(property "Reference" "R_PWR_Agitator"
+		(property "Reference" "R_PWR_Agitator1"
 			(at 97.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6422,7 +6409,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_PWR_Agitator")
+					(reference "R_PWR_Agitator1")
 					(unit 1)
 				)
 			)
@@ -6438,14 +6425,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6203103d-7ed0-4e1c-a96c-1712380d34f2")
-		(property "Reference" "SWD_In_Orin"
+		(property "Reference" "SWD_In_Orin1"
 			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
@@ -6509,7 +6495,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "SWD_In_Orin")
+					(reference "SWD_In_Orin1")
 					(unit 1)
 				)
 			)
@@ -6525,13 +6511,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65271d83-9844-4189-8c12-6f5cc6d4baf5")
-		(property "Reference" "R_PWR_Agitator"
+		(property "Reference" "R_PWR_Agitator2"
 			(at 92.71 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6588,7 +6573,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_PWR_Agitator")
+					(reference "R_PWR_Agitator2")
 					(unit 1)
 				)
 			)
@@ -6611,7 +6596,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "1k"
@@ -6675,14 +6659,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d435531-c579-473d-bb24-470c14501b10")
-		(property "Reference" "R_PWR_RFly"
+		(property "Reference" "R_PWR_BFly1"
 			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -6740,7 +6723,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_PWR_RFly")
+					(reference "R_PWR_BFly1")
 					(unit 1)
 				)
 			)
@@ -6763,7 +6746,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
@@ -6835,24 +6817,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 147.32 80.01 180)
+		(at 147.32 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "81917782-857c-48f7-86fc-915e65080374")
-		(property "Reference" "PWR_Orin"
-			(at 157.48 77.47 0)
+		(property "Reference" "PWR_Orin1"
+			(at 157.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 156.21 80.01 0)
+			(at 156.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6842,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 147.32 80.01 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 80.01 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 80.01 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +6869,7 @@
 			)
 		)
 		(property "Mouser Part Number" "XT30"
-			(at 147.32 80.01 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6886,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "PWR_Orin")
+					(reference "PWR_Orin1")
 					(unit 1)
 				)
 			)
@@ -6928,7 +6909,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -6940,7 +6920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 128.27 125.0949 0)
 			(effects
 				(font
@@ -6996,14 +6976,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "930253fd-b58e-4f37-a92d-8d8f887706aa")
-		(property "Reference" "R_PWR_LFly"
+		(property "Reference" "R_PWR_TFly1"
 			(at 97.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -7061,7 +7040,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_PWR_LFly")
+					(reference "R_PWR_TFly1")
 					(unit 1)
 				)
 			)
@@ -7077,14 +7056,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "937fba08-da5a-43fe-8aa4-46f54de0878e")
-		(property "Reference" "L_+PWR_Agitator"
+		(property "Reference" "L_+PWR_Agitator1"
 			(at 44.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -7142,7 +7120,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_+PWR_Agitator")
+					(reference "L_+PWR_Agitator1")
 					(unit 1)
 				)
 			)
@@ -7165,7 +7143,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -7177,7 +7154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 144.78 129.54 0)
 			(effects
 				(font
@@ -7238,7 +7215,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "150060YS75000"
@@ -7319,14 +7295,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8fd950d-39c7-440b-bc60-9229dfec0375")
-		(property "Reference" "L_PWR_Pitch"
+		(property "Reference" "L_PWR_Pitch1"
 			(at 44.45 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -7384,7 +7359,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_PWR_Pitch")
+					(reference "L_PWR_Pitch1")
 					(unit 1)
 				)
 			)
@@ -7406,7 +7381,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "150060YS75000"
@@ -7487,14 +7461,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd0e91c2-fb9c-4d68-b415-797341c0678a")
-		(property "Reference" "R_CAN_Pitch"
+		(property "Reference" "R_CAN_Pitch1"
 			(at 97.79 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -7552,7 +7525,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_CAN_Pitch")
+					(reference "R_CAN_Pitch1")
 					(unit 1)
 				)
 			)
@@ -7575,7 +7548,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -7587,7 +7559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 144.78 123.825 0)
 			(effects
 				(font
@@ -7642,14 +7614,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5d09fe5-4f36-4f9b-975a-9b32f21918f3")
-		(property "Reference" "R_PWR_Pitch"
+		(property "Reference" "R_PWR_Pitch1"
 			(at 97.79 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -7707,7 +7678,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_PWR_Pitch")
+					(reference "R_PWR_Pitch1")
 					(unit 1)
 				)
 			)
@@ -7729,7 +7700,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "501645-1620"
@@ -7886,13 +7856,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea8eaafa-3710-4228-9acd-34f33fe0ffd9")
-		(property "Reference" "L_CAN_RFly"
+		(property "Reference" "L_CAN_BFly1"
 			(at 36.83 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -7949,7 +7918,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_CAN_RFly")
+					(reference "L_CAN_BFly1")
 					(unit 1)
 				)
 			)
@@ -7965,14 +7934,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec731b18-a36c-4d2d-a591-494911ae50b4")
-		(property "Reference" "R_PWR_Yaw"
+		(property "Reference" "R_PWR_Yaw1"
 			(at 97.79 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -8030,7 +7998,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_PWR_Yaw")
+					(reference "R_PWR_Yaw1")
 					(unit 1)
 				)
 			)
@@ -8046,13 +8014,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecd0e428-68af-4196-8729-d4a5ff2c32ce")
-		(property "Reference" "L_CAN_Agitator"
+		(property "Reference" "L_CAN_Agitator1"
 			(at 39.37 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -8109,7 +8076,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_CAN_Agitator")
+					(reference "L_CAN_Agitator1")
 					(unit 1)
 				)
 			)
@@ -8125,13 +8092,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6391414-bab0-432e-a68d-3c7ed992c6be")
-		(property "Reference" "L_CAN_LFly"
+		(property "Reference" "L_CAN_TFly1"
 			(at 36.83 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -8188,7 +8154,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_CAN_LFly")
+					(reference "L_CAN_TFly1")
 					(unit 1)
 				)
 			)
@@ -8204,14 +8170,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9f061c2-4237-4dfc-8a8b-cdea258a3d7c")
-		(property "Reference" "L_PWR_RFly"
+		(property "Reference" "L_PWR_BFly1"
 			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -8269,7 +8234,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "L_PWR_RFly")
+					(reference "L_PWR_BFly1")
 					(unit 1)
 				)
 			)
@@ -8285,14 +8250,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcb0c3c3-0b7c-4764-9c0f-60b3bd981774")
-		(property "Reference" "R_CAN_Yaw"
+		(property "Reference" "R_CAN_Yaw1"
 			(at 97.79 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -8350,7 +8314,7 @@
 		(instances
 			(project "Sentry_Turret"
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "R_CAN_Yaw")
+					(reference "R_CAN_Yaw1")
 					(unit 1)
 				)
 			)
